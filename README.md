@@ -1,2 +1,2 @@
-# generative_ai_for_beginners
+# Generative AI for Beginners
 Repo based on Microsoft open course - Generative AI for Beginners.
