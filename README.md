@@ -50,6 +50,7 @@ To effectively use this repository, you should have:
     git clone https://github.com/wenyuliuinfo/generative_ai_for_beginners.git
     cd generative_ai_for_beginners/<lesson_folder_name>/python/
     ```
+
 2. **Set up a Python environment:**
 It's highly recommended to use a virtual environment. You can use venv.
     ```bash
@@ -57,11 +58,13 @@ It's highly recommended to use a virtual environment. You can use venv.
     python -m venv .venv
     source .venv/bin/activate  # On Windows: .venv\Scripts\activate
     ```
+
 3. **Install dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
 (Note: If a requirements.txt file is not present in the root, you may need to install libraries like `openai`, `chromadb`, `pillow`, `numpy`, `pandas` individually as needed for each lesson.)
+
 4. **Set up your API Keys:**
 Many lessons require an API key from an LLM provider (e.g., DeepSeek, OpenAI, Azure OpenAI, or a local model). Create a .env file in the root directory and add your keys:
     ```text
@@ -69,6 +72,7 @@ Many lessons require an API key from an LLM provider (e.g., DeepSeek, OpenAI, Az
     DEEPSEEK_API_KEY="your-api-key-here"
     DEEPSEEK_BASE_URL="your-api-url-here"
     ```
+
 5. **Launch Jupyter:**
 Navigate to a lesson folder and start Jupyter Notebook or Jupyter Lab.
     ```bash
@@ -80,23 +84,13 @@ Navigate to a lesson folder and start Jupyter Notebook or Jupyter Lab.
 This repository will guide you through the essential components of modern Generative AI development:
 
 - **LLM Fundamentals:** Understanding what LLMs are, their capabilities, and how to choose between different models.
-
 - **Prompt Engineering:** Mastering the art of crafting effective prompts to guide LLM behavior, from zero-shot to few-shot and chain-of-thought prompting.
-
 - **Responsible AI:** Learning about the ethical implications, biases, and safety considerations in deploying Gen AI.
-
 - **Text Generation Applications:** Building practical apps like chatbots, creative writing tools, and content generators.
-
 - **Search Applications:** Creating applications that use embeddings and semantic search to find relevant information.
-
 - **Image Applications:** Working with multimodal models to generate and analyze images.
-
 - **Function Calling:** Enabling LLMs to interact with external APIs and tools to perform actions.
-
 - **User Experience (UX):** Designing intuitive and effective user interfaces for AI applications.
-
 - **Security:** Implementing best practices to secure your AI applications and data.
-
 - **Application Lifecycle:** Understanding the end-to-end process from development to deployment.
-
 - **Retrieval-Augmented Generation (RAG) & Vector Databases:** A deep dive into RAG, a crucial technique for grounding LLMs in proprietary or up-to-date data. You'll learn to work with vector databases (like Chroma, Pinecone) to build knowledge-aware applications.
