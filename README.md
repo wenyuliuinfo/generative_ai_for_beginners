@@ -14,20 +14,20 @@ The content is organized to follow a logical learning journey, mirroring and exp
 
 ```
 generative_ai_for_beginners/
-    ├── 01-intro-to-genai/ # Introduction to Generative AI concepts
-    ├── 02-exploring-and-comparing-different-llms/ # LLM landscape and comparison
-    ├── 03-using-generative-ai-responsibly/ # Ethical considerations and responsible AI
-    ├── 04-prompt-engineering-fundamentals/ # Core techniques for effective prompting
-    ├── 06-text-generation-apps/ # Building applications for text generation
-    ├── 08-building-search-applications/ # Creating search apps with LLMs
-    ├── 09-building-image-applications/ # Applications for image generation and analysis
-    ├── 11-integrating-with-function-calling/ # Enabling LLMs to call external functions
-    ├── 12-designing-ux-for-ai-applications/ # UX best practices for AI-powered apps
-    ├── 13-securing-ai-applications/ # Security considerations for Gen AI
-    ├── 14-generative-ai-application-lifecycle/ # The full lifecycle of a Gen AI project
-    ├── 15-rag-and-vector-databases/ # Retrieval-Augmented Generation (RAG) & Vector DBs
-    ├── .gitignore
-    └── README.md
+├── 01-intro-to-genai/                          # Introduction to Generative AI concepts
+├── 02-exploring-and-comparing-different-llms/  # LLM landscape and comparison
+├── 03-using-generative-ai-responsibly/         # Ethical considerations and responsible AI
+├── 04-prompt-engineering-fundamentals/         # Core techniques for effective prompting
+├── 06-text-generation-apps/                    # Building applications for text generation
+├── 08-building-search-applications/            # Creating search apps with LLMs
+├── 09-building-image-applications/             # Applications for image generation and analysis
+├── 11-integrating-with-function-calling/       # Enabling LLMs to call external functions
+├── 12-designing-ux-for-ai-applications/        # UX best practices for AI-powered apps
+├── 13-securing-ai-applications/                # Security considerations for Gen AI
+├── 14-generative-ai-application-lifecycle/     # The full lifecycle of a Gen AI project
+├── 15-rag-and-vector-databases/                # Retrieval-Augmented Generation (RAG) & Vector DBs
+├── .gitignore
+└── README.md
 ```
 
 Each lesson folder typically contains:
